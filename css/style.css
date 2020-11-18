@@ -3,7 +3,7 @@ body {
   background-color: #000;
 }
 
-ul {
+#nav-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -12,9 +12,11 @@ ul {
   position: sticky;
   top: 0;
   width: 100%;
+  border-style: solid;
+  border-width: 5px;
 }
 
-li {
+.nav-item {
   float: left;
 }
 
@@ -54,11 +56,35 @@ li a:hover {
   border-style: solid;
   border-width: 5px;
   border-color: #000;
+  background-color: white;
+}
+
+.hero-icon-individual {
+  float: left;
+  margin-right: 10px;
 }
 
 .hero-background {
   background-color: #A607B8;
   padding:10px;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.hero-name{
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  text-align: center;
+}
+
+.zoom {
+  transition: transform .1s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+  background-color: #07B6D7;
 }
 /*.nav-item {
   display: block;
