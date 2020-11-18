@@ -87,6 +87,22 @@ li a:hover {
   background-color: #07B6D7;
 }
 
+.section-heading {
+  margin-top:0px;
+  margin-left:40px;
+  font-size:150%;
+  font-weight:bold;
+}
+
+.overview-box {
+  border-top-style: solid;
+}
+
+.ability-section {
+  border-top-style: solid;
+  padding-left: 140px;
+}
+
 .ability-box {
   background-color: #0C2EBF;
   display: inline-block;
@@ -98,11 +114,18 @@ li a:hover {
   border-style: double;
 }
 
-.ability-name {
-  text-align: center;
+.ability-header {
+  font-weight: bold;
+  font-size: 120%;
 }
 
 .abilities-list {
   border-top-style: solid;
   padding-top: 5px;
+}
+
+.keybind {
+  float:right;
+  font-weight: normal;
+  font-style: italic;
 }
