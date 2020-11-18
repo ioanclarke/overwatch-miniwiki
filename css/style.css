@@ -86,23 +86,23 @@ li a:hover {
   transform: scale(1.2);
   background-color: #07B6D7;
 }
-/*.nav-item {
-  display: block;
-  color: #000;
-  padding: 10px 20px;
-  text-decoration: none;
+
+.ability-box {
+  background-color: #0C2EBF;
+  display: inline-block;
+  margin-bottom:10px;
+  padding-bottom:5px;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-style: double;
+}
+
+.ability-name {
   text-align: center;
 }
 
-.nav-item:hover {
-  color: white;
-  background-color: #6F0439;
+.abilities-list {
+  border-top-style: solid;
+  padding-top: 5px;
 }
-
-
-
-
-
-li {
-  float: left;
-}*/
