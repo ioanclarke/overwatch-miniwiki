@@ -1,19 +1,19 @@
 body {
   font-family: Tahoma, Geneva, sans-serif;
-  background-color: #000;
+  background-color: black;
 }
 
-#nav-bar {
+.nav-bar {
   list-style-type: none;
-  margin: 0px 5px 0px 5px;
+  margin: 0px 5px 0px 3px;
   padding: 0;
   overflow: hidden;
   background-color: #F8027C;
-  position: sticky;
+  position: fixed;
   top: 0;
-  width: auto;
+  width: 98%;
   border-style: solid;
-  border-width: 0px;
+  border-width: 2px;
 }
 
 .nav-item {
@@ -33,7 +33,7 @@ li a:hover {
   background-color: #6F0439;
 }
 
-#active-nav {
+.active-nav {
   background-color: #A607B8;
   color: white;
 }
@@ -44,11 +44,12 @@ li a:hover {
   background-color: #A607B8;
   padding: 5px;
   grid-gap: 0px;
+  margin: 44px 5px 0px 5px;
 }
 
 .grid-item {
   text-align: center;
-  padding: 5  px;
+  margin: 10px;
   width: 80%;
 }
 
@@ -61,11 +62,14 @@ li a:hover {
 
 .hero-icon-individual {
   float: left;
+  margin-top: 15px;
   margin-right: 10px;
 }
 
 .content-wrapper {
   background-color: #A607B8;
+  margin-top: 39px;
+  margin-left: 1px;
   padding:10px;
   border-style: solid;
   border-width: 5px;
@@ -96,17 +100,17 @@ li a:hover {
   color: white;
 }
 
-.overview-box {
+.overview-section {
   border-top-style: solid;
   margin-left: 180px;
-  padding-left: 0px;
   color: white;
   border-color: black;
 }
 
 .ability-section {
   border-top-style: solid;
-  padding-left: 175px;
+  margin-left: 180px;
+  padding-left: 0px;
 }
 
 .ability-main {
@@ -116,13 +120,8 @@ li a:hover {
 .ability-box {
   display: flex;
   background-color: #0C2EBF;
-  margin-left: 90px;
-  margin-right: 310px;
-  margin-bottom:10px;
-  padding-bottom:5px;
-  padding-top: 0px;
-  padding-left: 5px;
-  padding-right: 5px;
+  margin: 0px 310px 10px 90px;
+  padding: 0px 5px 5px 5px;
   border-style: dashed;
   color: white;
   border-color: black;
