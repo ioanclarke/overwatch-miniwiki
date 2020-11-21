@@ -1,3 +1,10 @@
+:root {
+  --blue: #0C2EBF;
+  --purple: #181515;
+  --light-blue: #07B6D7;
+  --red: #C30303;
+}
+
 body {
   font-family: Tahoma, Geneva, sans-serif;
   background-color: black;
@@ -8,13 +15,26 @@ body {
   margin: 0px 5px 0px 3px;
   padding: 0;
   overflow: hidden;
-  background-color: #F8027C;
+  background-color: var(--blue);
   position: fixed;
   top: 0;
   width: 98%;
   border-style: solid;
   border-width: 2px;
 }
+
+/*.nav-bar-secondary {
+  list-style-type: none;
+  margin: 0px 5px 0px 3px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F8027C;
+  position: fixed;
+  top: 37px;
+  width: 98%;
+  border-style: solid;
+  border-width: 2px;
+}*/
 
 .nav-item {
   float: left;
@@ -30,18 +50,18 @@ li a {
 
 li a:hover {
   color: white;
-  background-color: #6F0439;
+  background-color: var(--red);
 }
 
 .active-nav {
-  background-color: #A607B8;
+  background-color: var(--purple);
   color: white;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  background-color: #A607B8;
+  background-color: var(--purple);
   padding: 5px;
   grid-gap: 0px;
   margin: 44px 5px 0px 5px;
@@ -56,7 +76,7 @@ li a:hover {
 .hero-icon {
   border-style: solid;
   border-width: 5px;
-  border-color: #000;
+  border-color: var(--blue);
   background-color: white;
 }
 
@@ -67,7 +87,7 @@ li a:hover {
 }
 
 .content-wrapper {
-  background-color: #A607B8;
+  background-color: var(--purple);
   margin-top: 39px;
   margin-left: 1px;
   padding:10px;
@@ -79,6 +99,7 @@ li a:hover {
   background-color: white;
   border-style: solid;
   border-width: 5px;
+  border-color: var(--blue);
   text-align: center;
 }
 
@@ -88,7 +109,7 @@ li a:hover {
 
 .zoom:hover {
   transform: scale(1.2);
-  background-color: #07B6D7;
+  background-color: var(--light-blue);
 }
 
 .section-heading {
@@ -102,13 +123,14 @@ li a:hover {
 
 .overview-section {
   border-top-style: solid;
+  border-color: var(--blue);
   margin-left: 180px;
   color: white;
-  border-color: black;
 }
 
 .ability-section {
   border-top-style: solid;
+  border-color: var(--blue);
   margin-left: 180px;
   padding-left: 0px;
 }
