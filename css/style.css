@@ -63,8 +63,9 @@ li a:hover {
   grid-template-columns: auto auto auto auto;
   background-color: var(--purple);
   padding: 5px;
-  grid-gap: 0px;
-  margin: 44px 5px 0px 5px;
+  grid-column-gap: 0px;
+  margin: 44px auto 0px auto;
+  width: 70%
 }
 
 .grid-item {
