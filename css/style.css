@@ -1,26 +1,26 @@
 :root {
-  --blue: #0C2EBF;
-  --purple: #181515;
-  --light-blue: #FFFB82;
-  --red: #C30303;
+    --blue: #0C2EBF;
+    --purple: #181515;
+    --light-blue: #FFFB82;
+    --red: #C30303;
 }
 
 body {
-  font-family: Tahoma, Geneva, sans-serif;
-  background-color: black;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: black;
 }
 
 .nav-bar {
-  list-style-type: none;
-  margin: 0px 5px 0px 3px;
-  padding: 0;
-  overflow: hidden;
-  background-color: var(--blue);
-  position: fixed;
-  top: 0;
-  width: 98%;
-  border-style: solid;
-  border-width: 2px;
+    list-style-type: none;
+    margin: 0 5px 0 3px;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--blue);
+    position: fixed;
+    top: 0;
+    width: 98%;
+    border-style: solid;
+    border-width: 2px;
 }
 
 /*.nav-bar-secondary {
@@ -37,204 +37,217 @@ body {
 }*/
 
 .nav-item {
-  float: left;
+    float: left;
 }
 
 li a {
-  display: block;
-  padding: 8px;
-  color: #000;
-  text-align: center;
-  text-decoration: none;
+    display: block;
+    padding: 8px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
 }
 
 li a:hover {
-  color: white;
-  background-color: var(--red);
+    color: white;
+    background-color: var(--red);
 }
 
 .active-nav {
-  background-color: var(--purple);
-  color: white;
+    background-color: var(--purple);
+    color: white;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  background-color: var(--purple);
-  padding: 5px;
-  grid-column-gap: 0px;
-  margin: 44px auto 0px auto;
-  width: 70%
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: var(--purple);
+    padding: 5px;
+    grid-column-gap: 0;
+    margin: 44px auto 0 auto;
+    width: 70%
 }
 
 .grid-item {
-  text-align: center;
-  margin: 10px;
-  width: 80%;
+    text-align: center;
+    margin: 10px;
+    width: 80%;
 }
 
 .hero-icon {
-  border-style: solid;
-  border-width: 5px;
-  border-color: var(--blue);
-  background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--blue);
+    background-color: white;
 }
 
 .hero-icon-individual {
-  float: left;
-  margin-top: 15px;
-  margin-right: 10px;
-}
-
-.hero-icon-patch-notes {
-  width: 70px;
-  margin-right: 5px;
-  flex-basis: auto;
-  display: block;
-  margin: auto;
-  border-color: white;
-  background-color: var(--blue);
-  border-width: 2px;
-  border-style: outset;
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
 }
 
 .content-wrapper {
-  background-color: var(--purple);
-  margin-top: 39px;
-  margin-left: 1px;
-  padding:10px;
-  border-style: solid;
-  border-width: 5px;
+    background-color: var(--purple);
+    margin-top: 39px;
+    margin-left: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
 }
 
-.hero-name{
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: var(--blue);
-  text-align: center;
+.hero-name {
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--blue);
+    text-align: center;
 }
 
 .zoom {
-  transition: transform .1s;
+    transition: transform .1s;
 }
 
 .zoom:hover {
-  transform: scale(1.2);
-  background-color: var(--light-blue);
+    transform: scale(1.2);
+    background-color: var(--light-blue);
 }
 
 .section-heading {
-  margin-top:0px;
-  margin-left:0px;
-  margin-bottom: 0px;
-  font-size:150%;
-  font-weight:bold;
-  color: white;
+    margin: 0;
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
 }
 
 .overview-section {
-  border-top-style: solid;
-  border-color: var(--blue);
-  margin-left: 180px;
-  color: white;
+    border-top-style: solid;
+    border-color: var(--blue);
+    margin-left: 180px;
+    color: white;
 }
 
 .ability-section {
-  border-top-style: solid;
-  border-color: var(--blue);
-  margin-left: 180px;
-  padding-left: 0px;
+    border-top-style: solid;
+    border-color: var(--blue);
+    margin-left: 180px;
+    padding-left: 0;
 }
 
 .ability-main {
-  display: flex
+    display: flex
 }
 
 .ability-box {
-  display: flex;
-  background-color: var(--blue);
-  margin: 0px 310px 10px 90px;
-  padding: 0px 5px 5px 5px;
-  border-style: dashed;
-  color: white;
-  border-color: black;
+    display: flex;
+    background-color: var(--blue);
+    margin: 0 310px 10px 90px;
+    padding: 0 5px 5px 5px;
+    border-style: dashed;
+    color: white;
+    border-color: black;
 }
 
 .ability-details-container {
-  flex-grow: 1;
-  flex-basis: auto;
-  padding-left: 5px;
-  margin-left: 5px;
+    flex-grow: 1;
+    flex-basis: auto;
+    padding-left: 5px;
+    margin-left: 5px;
 }
 
 .ability-header {
-  font-weight: bold;
-  font-size: 120%;
+    font-weight: bold;
+    font-size: 120%;
 }
 
 .helper {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .ability-icon-container {
-  flex-basis: auto;
-  display: flex;
+    flex-basis: auto;
+    display: flex;
 }
 
 .ability-icon {
-  width: 50px;
-  margin: auto;
-  display: block;
+    width: 50px;
+    margin: auto;
+    display: block;
 }
 
 .ability-icon-patch-notes {
 
 }
 
-.abilities-list {
-  border-top-style: dotted;
-  margin-top: 5px;
-  padding-top: 5px;
-  border-color: white;
+.ability-stats {
+    border-top-style: dotted;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-color: white;
 }
 
 .keybind {
-  float:right;
-  font-weight: normal;
-  font-style: italic;
+    float: right;
+    font-weight: normal;
+    font-style: italic;
 }
 
 .hero-updates-section {
-  color: white;
+    color: white;
 }
 
 .hero-update-box {
-  display: flex;
-  background-color: var(--blue);
-  border-style: dashed;
-  border-color: black;
-  width:50%;
-  padding: 5px 5px; 5px 5px;
+    /*display: flex;*/
+    display: grid;
+    grid-template-columns: auto;
+    background-color: var(--blue);
+    border: solid black 1px;
+    width: 50%;
+    margin: 1vw 0;
 }
 
 .hero-update-header {
-  display: flex
+    padding: 5px;
+    border-bottom: white 1px solid;
 }
 
-.hero-update-description {
-  border-top-style: dotted;
-  border-color: white;
-  padding-top: 2px;
-  display: flex;
+.hero-update--hero-icon {
+    float: left;
+    background-color: white;
+    border: white outset 2px;
+    width: 70px;
+
 }
 
-.ability-description-patch-notes {
-  flex-grow: 1;
-  flex-basis: auto;
-  padding-left: 0px;
-  margin-left: 0px;
+.hero-update--hero-name {
+    padding-top: 0.5em;
+    padding-left: 3em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.hero-update-body {
+    padding: 5px;
+}
+
+.hero-update--ability-icon {
+    width: 60px;
+    float: left;
+    border: white solid 1px;
+    background-color: black;
+    margin-right: 10px;
+}
+
+.hero-update--ability-name {
+    font-weight: bold;
+}
+
+.hero-update--ability-description {
+    padding-left: 7em;
+    padding-top: 0.5em;
+}
+
+.hero-update--general-update-description {
 }
