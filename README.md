@@ -1,1 +1,1 @@
-This is a miniature wiki for [Overwatch](https://playoverwatch.com/en-us/). 
+This is a miniature wiki for the game [Overwatch](https://playoverwatch.com/en-us/). 
